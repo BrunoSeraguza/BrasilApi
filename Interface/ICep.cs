@@ -9,6 +9,6 @@ namespace IntegraBrasilApi.Interface
 {
     public interface ICep
     {
-      
+      Task<ResponseGeneric<CepResponse>> BuscarEnderecoCep(string cep);
     }
 }

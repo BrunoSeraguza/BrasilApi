@@ -15,7 +15,7 @@ namespace IntegraBrasilApi.Model
         [JsonPropertyName("city")]
         public string City { get; set; }
         [JsonPropertyName("neighborhood")]
-        public string neighborhood { get; set; }
+        public string Neighborhood { get; set; }
         [JsonPropertyName("street")]
         public string Street { get; set; }
         [JsonPropertyName("service")]

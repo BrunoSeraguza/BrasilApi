@@ -10,8 +10,8 @@ namespace IntegraBrasilApi.Interface
     public interface IBrasilApi
     {
            Task<ResponseGeneric<CepModel>> BuscarEnderecoCep(string cep);
-           Task<ResponseGeneric<List<CepModel>>> BuscarTodosBancos();
-           Task<ResponseGeneric<CepModel>> BuscarBanco(string ispb);
+           Task<ResponseGeneric<List<BanksModel>>> BuscarTodosBancos();
+           Task<ResponseGeneric<BanksModel>> BuscarBanco(string ispb);
 
     }
 }
